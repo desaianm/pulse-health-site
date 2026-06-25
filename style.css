@@ -1,0 +1,26 @@
+:root { --paper:#f4eee1; --card:#fdfaf2; --border:#e3dac6; --ink:#2c2823; --sub:#6f675a; --accent:#7e6ca6; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Hanken Grotesk',system-ui,sans-serif; color:var(--ink); background:linear-gradient(180deg,#f6f1e6,#ece3d2); min-height:100vh; line-height:1.6; }
+.wrap { max-width:720px; margin:0 auto; padding:64px 24px 80px; }
+.serif { font-family:'Newsreader',serif; font-weight:500; }
+.eyebrow { font-family:'Hanken Grotesk'; font-weight:600; letter-spacing:.14em; text-transform:uppercase; font-size:12px; color:var(--sub); }
+.dot { width:14px; height:14px; border-radius:50%; background:var(--accent); display:inline-block; vertical-align:middle; margin-right:10px; }
+h1 { font-family:'Newsreader',serif; font-weight:500; font-size:clamp(32px,7vw,52px); line-height:1.05; letter-spacing:-0.01em; }
+.lede { font-size:18px; color:var(--sub); margin-top:16px; max-width:48ch; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:22px; padding:26px; margin-top:32px; box-shadow:0 10px 30px -22px rgba(60,45,20,.5); }
+.card h2 { font-family:'Newsreader',serif; font-weight:500; font-size:22px; }
+.grid { display:grid; gap:14px; margin-top:14px; }
+.row { display:flex; gap:12px; align-items:flex-start; }
+.check { color:#5e7d50; font-weight:700; }
+.links { display:flex; flex-wrap:wrap; gap:14px; margin-top:36px; }
+a.btn { text-decoration:none; color:var(--ink); background:var(--card); border:1px solid var(--border); border-radius:999px; padding:11px 18px; font-weight:600; font-size:14px; }
+a.btn:hover { border-color:var(--accent); color:var(--accent); }
+footer { margin-top:48px; color:var(--sub); font-size:13px; }
+footer a, .prose a { color:var(--accent); }
+.back { display:inline-block; margin-bottom:18px; color:var(--accent); text-decoration:none; font-weight:600; font-size:14px; }
+.updated { color:var(--sub); font-size:13px; margin-top:8px; }
+.prose h2 { font-family:'Newsreader',serif; font-weight:500; font-size:22px; margin-top:30px; }
+.prose p { color:#46403a; margin-top:12px; }
+.prose ul { margin-top:8px; padding-left:22px; }
+.prose li { color:#46403a; margin-top:8px; }
+.callout { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px 18px; margin-top:16px; font-size:14px; color:#46403a; }
